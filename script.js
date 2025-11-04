@@ -72,7 +72,7 @@ const PROJECTS = [
     description: "A booking website for salons with a clean UI and user-friendly experience.",
     tech: ["HTML","CSS","JS"],
     repo: `https://github.com/${GITHUB_USERNAME}/salon-booking-website`,
-    demo: "https://${GITHUB_USERNAME}.github.io/KashishSingh_PortfolioWebsite/" 
+    demo: "https://${GITHUB_USERNAME}.github.io/salon-booking-website/" 
   }
 ];
 
