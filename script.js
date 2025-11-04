@@ -65,14 +65,14 @@ const PROJECTS = [
     description: "A minimal student record management system with localStorage persistence.",
     tech: ["HTML","CSS","JS"],
     repo: `https://github.com/${GITHUB_USERNAME}/student-record-management-system`,
-    demo: "#" // Add real demo URL when available
+    demo: "https://${GITHUB_USERNAME}.github.io/student-record-management/" 
   },
   {
     title: "Salon's Booking Website",
     description: "A booking website for salons with a clean UI and user-friendly experience.",
     tech: ["HTML","CSS","JS"],
     repo: `https://github.com/${GITHUB_USERNAME}/salon-booking-website`,
-    demo: "#" // Add real demo URL when available
+    demo: "https://${GITHUB_USERNAME}.github.io/KashishSingh_PortfolioWebsite/" 
   }
 ];
 
@@ -112,12 +112,12 @@ if(contactForm) {
   });
 }
 
-// Smooth scroll for navigation links
+
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
     const href = this.getAttribute('href');
     
-    // Skip if href is just "#"
+   
     if(href === '#') {
       e.preventDefault();
       return;
